@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, toRef, computed, watchEffect } from 'vue'
+import { toRef, computed, watchEffect } from 'vue'
 import { ICON } from '../constant'
 
 interface Props {

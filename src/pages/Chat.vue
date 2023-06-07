@@ -9,7 +9,7 @@
     </Header>
     <!-- Content -->
     <div style="flex-grow: 1"></div>
-    <Input />
+    <Input @send="handleSend" />
   </Layout>
 </template>
 <script setup lang="ts">
@@ -25,6 +25,9 @@ const bot = ref<BotSet>('Mircoblue')
 
 const handleSetting = () => console.log(111)
 const handleShare = () => console.log(222)
+const handleSend = (content: string) => {
+  console.log(content)
+}
 </script>
 <style lang="scss" scoped>
 .chat {

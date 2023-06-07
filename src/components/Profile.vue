@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, toRef, computed } from 'vue'
+import { toRef, computed } from 'vue'
 import { BotSet, BOT } from '../constant'
 
 interface Props {
